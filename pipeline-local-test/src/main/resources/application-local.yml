@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/automl2?connectionCollation=utf8mb4_unicode_ci&useSSL=false&sessionVariables=time_zone%3d'%2B08%3A00'
+    username: root
+    password:
+pipeline:
+  flow-engine-key: test
+  flow-engine-url: http://212.129.246.239:31101/template-market
+  flow-engine-access-key: e5f1fc70-7d1d-4f60-9bd6-fd949078adad
+  function-locations: /tmp/functions
+  flow-engine-data-url: http://212.129.246.239:31101/sds-workbench
+  localJarUrls: /Users/ully/githubprojects/examples/pipeline-local-test/target/pipeline-local-test-1.0-SNAPSHOT.jar
